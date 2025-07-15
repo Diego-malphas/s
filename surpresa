@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Surpresa para Meu Amor</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffccff, #ccffff);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      color: #ff3399;
+    }
+    .mensagem {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.5em;
+      color: #333;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #ff3399;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff66cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Oi, meu amor 💖</h1>
+  <button onclick="mostrarMensagem()">Clique aqui para ver sua surpresa</button>
+  <div class="mensagem" id="surpresa">
+    Você é a razão do meu sorriso todos os dias. Te amo! 💘<br><br>
+    <a href="https://open.spotify.com/playlist/37i9dQZF1DX4WYpdgoIcn6" target="_blank">🎶 Sua playlist especial 🎶</a>
+  </div>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById('surpresa').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
